@@ -5,7 +5,7 @@ class Config(object):
     OWNER_ID = "7694170809"
     sudo_users = "7694170809"
     GROUP_ID = "-1002681848382"
-    TOKEN = "8384664511:AAE4mHfbqg-cwJ_QAF9T6wXSrtxSMUafj3g"
+    TOKEN = "8384664511:AAFP_jv3q4LcQtfNsCObKAYByQWHVlFPHQ8"
     mongo_url = "mongodb+srv://HaremDBBot:ThisIsPasswordForHaremDB@haremdb.swzjngj.mongodb.net/?retryWrites=true&w=majority"
     PHOTO_URL = ["https://telegra.ph/file/b925c3985f0f325e62e17.jpg", "https://telegra.ph/file/4211fb191383d895dab9d.jpg"]
     SUPPORT_CHAT = "cardioXlog"
