@@ -15,4 +15,4 @@ async def ping(update: Update, context: CallbackContext) -> None:
     elapsed_time = round((end_time - start_time) * 1000, 3)
     await message.edit_text(f'Pong! {elapsed_time}ms')
 
-application.add_handler(CommandHandler("ping", ping))
+application.add_handler(CommandHandler("wping", ping))
