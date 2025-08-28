@@ -1,0 +1,62 @@
+{
+  "name": "Telegram Waifu Bot",
+  "description": "A Telegram Waifu Catcher Bot with MongoDB backend.",
+  "repository": "https://github.com/yourusername/your-repo-name",
+  "logo": "https://telegra.ph/file/b925c3985f0f325e62e17.jpg",
+  "keywords": ["telegram", "bot", "waifu", "python", "pyrogram"],
+  "env": {
+    "OWNER_ID": {
+      "description": "Your Telegram user ID (from @userinfobot).",
+      "value": "7694170809"
+    },
+    "SUDO_USERS": {
+      "description": "List of sudo users (comma-separated IDs).",
+      "value": "7694170809"
+    },
+    "GROUP_ID": {
+      "description": "Your bot's main group ID (with -100 prefix).",
+      "value": "-1002681848382"
+    },
+    "TOKEN": {
+      "description": "Telegram bot token from @BotFather.",
+      "value": "YOUR_BOT_TOKEN_HERE"
+    },
+    "MONGO_URL": {
+      "description": "Your MongoDB connection string.",
+      "value": "YOUR_MONGO_URL_HERE"
+    },
+    "PHOTO_URL": {
+      "description": "Bot photo(s), comma-separated Telegraph links.",
+      "value": "https://telegra.ph/file/b925c3985f0f325e62e17.jpg,https://telegra.ph/file/4211fb191383d895dab9d.jpg"
+    },
+    "SUPPORT_CHAT": {
+      "description": "Support group username without @.",
+      "value": "cardioXlog"
+    },
+    "UPDATE_CHAT": {
+      "description": "Updates channel username without @.",
+      "value": "botXjarvis"
+    },
+    "BOT_USERNAME": {
+      "description": "Bot username without @.",
+      "value": "ExChatzBot"
+    },
+    "CHARA_CHANNEL_ID": {
+      "description": "Character database channel ID.",
+      "value": "-1002754048423"
+    },
+    "API_ID": {
+      "description": "Your API ID from https://my.telegram.org/apps.",
+      "value": "YOUR_API_ID_HERE"
+    },
+    "API_HASH": {
+      "description": "Your API Hash from https://my.telegram.org/apps.",
+      "value": "YOUR_API_HASH_HERE"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
