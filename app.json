@@ -1,7 +1,7 @@
 {
   "name": "Telegram Waifu Bot",
   "description": "A Telegram Waifu Catcher Bot with MongoDB backend.",
-  "repository": "https://github.com/yourusername/your-repo-name",
+  "repository": "https://github.com/Nobi-123/WAIFU-HUSBANDO-CATCHER",
   "logo": "https://telegra.ph/file/b925c3985f0f325e62e17.jpg",
   "keywords": ["telegram", "bot", "waifu", "python", "pyrogram"],
   "env": {
